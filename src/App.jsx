@@ -5,7 +5,6 @@ import { Parallax } from 'react-materialize';
 //Image assets
 import HoldHandsPic from './Assets/holdhandsbeach.jpg';
 import WeddingRingsPic from './Assets/weddingrings.jpg';
-import BrentwoodHillsPic from './Assets/brentwood.jpg';
 import HeelsPic from './Assets/weddingheels.jpg';
 
 class App extends Component {
@@ -24,7 +23,7 @@ class App extends Component {
           <p className="main-image-words">You are invited...</p>
         </div>
         <div>
-          <div className="section white">
+          <div className="section lightgrey">
             <div className="row container">
               <h1 className="header">Angelica & Jerry</h1>
               <p className="grey-text text-darken-3 lighten-3">06.22.19</p>
@@ -34,7 +33,7 @@ class App extends Component {
 
         <div>
           <Parallax imageSrc={HoldHandsPic}/>
-          <div className="section white">
+          <div className="section lightgrey">
             <div className="row container">
               <h1 className="header">Brentwood, CA</h1>
               <p className="grey-text text-darken-3 lighten-3">Ceremony @ Immaculate Heart of Mary</p>
@@ -42,7 +41,7 @@ class App extends Component {
             </div>
           </div>
           <Parallax imageSrc={HeelsPic}/>
-          <div className="section white">
+          <div className="section lightgrey">
             <div className="row container">
               <h1 className="header">RSVP</h1>
               <p className="grey-text text-darken-3 lighten-3">Select your meal below...</p>

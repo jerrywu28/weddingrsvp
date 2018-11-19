@@ -4,7 +4,9 @@
   "description": "RSVP/information for guests to see about Angelica & my wedding.",
   "main": "index.js",
   "scripts": {
-    "build": "webpack -d --watch"
+    "build": "webpack -d --watch",
+    "start": "node server/index.js",
+    "heroku-postbuild": "webpack -p"
   },
   "repository": {
     "type": "git",
@@ -21,7 +23,9 @@
     "@babel/preset-env": "^7.1.6",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.4",
+    "cors": "^2.8.5",
     "css-loader": "^1.0.1",
+    "express": "^4.16.4",
     "file-loader": "^2.0.0",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",

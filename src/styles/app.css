@@ -1,5 +1,11 @@
 body {
-  background-color: rgb(75, 75, 75);
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+}
+
+.section {
+  background-color: rgba(225, 225, 225, 0.2);
+  height: 30vh;
 }
 
 .main-image {
@@ -11,9 +17,9 @@ body {
 
 .main-image-words {
   position: absolute;
-  top: 25%;
+  top: 0;
   bottom: 0;
-  left: 25%;
+  left: 0;
   right: 0;
   color: #ffffff;
   font-size: 48px;
