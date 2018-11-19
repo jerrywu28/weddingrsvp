@@ -24,3 +24,7 @@ body {
   color: #ffffff;
   font-size: 48px;
 }
+
+.form {
+  height: auto;
+}
