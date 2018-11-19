@@ -1,0 +1,33 @@
+{
+  "name": "weddingrsvp",
+  "version": "1.0.0",
+  "description": "RSVP/information for guests to see about Angelica & my wedding.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack -d --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jerrywu28/weddingrsvp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jerrywu28/weddingrsvp/issues"
+  },
+  "homepage": "https://github.com/jerrywu28/weddingrsvp#readme",
+  "dependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^1.0.1",
+    "file-loader": "^2.0.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-materialize": "^2.5.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.26.0",
+    "webpack-cli": "^3.1.2"
+  }
+}
