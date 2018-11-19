@@ -1,0 +1,20 @@
+body {
+  background-color: rgb(75, 75, 75);
+}
+
+.main-image {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: 0 0 -6px;
+}
+
+.main-image-words {
+  position: absolute;
+  top: 25%;
+  bottom: 0;
+  left: 25%;
+  right: 0;
+  color: #ffffff;
+  font-size: 48px;
+}
